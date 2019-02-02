@@ -5,9 +5,6 @@ class DetailPage extends StatelessWidget {
   DetailPage({Key key, @required this.item}) : super(key: key);
 
   final String item;
-  void ff(BuildContext context) {
-    Navigator.of(context).didStartUserGesture();
-  }
 
   @override
   Widget build(BuildContext context) {
